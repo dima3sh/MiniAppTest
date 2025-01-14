@@ -1,0 +1,518 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "displayName": "hostless-reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "projectApiToken": "uZp069FLSLNVA2dpWnqC3BUaj3flvtNBNXt6e1b67rm4Uh6lGHgYJ65FCBXlOFTB5KDW7RmmOxIAzgHYCg",
+      "projectName": "plasmic-nav",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_nav/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jGx9tiKJoex",
+          "name": "NavigationBar",
+          "displayName": "hostless-plasmic-navigation-bar",
+          "componentImportPath": "@plasmicpkgs/plasmic-nav"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "seNiaoyHbqUbSRTV4dz1rm",
+      "projectApiToken": "7igKCAfX9eYD68si0RSDUjKB8fsQPrpBq4UI2WX5MlnchLbHUFnd0H0OT2R0vhpWs0IzFAWETiMcKT8xA",
+      "projectName": "Beginner's guide: website in 3 minutes",
+      "version": "latest",
+      "cssFilePath": "plasmic/beginners_guide_website_in_3_minutes/plasmic.module.css",
+      "components": [
+        {
+          "id": "hhAG-0aVlGG7",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "seNiaoyHbqUbSRTV4dz1rm",
+          "renderModuleFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "P9_1FdZr6N2T",
+          "name": "PremiumSaaSDesign",
+          "type": "managed",
+          "projectId": "seNiaoyHbqUbSRTV4dz1rm",
+          "renderModuleFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicPremiumSaaSDesign.jsx",
+          "importSpec": {
+            "modulePath": "PremiumSaaSDesign.jsx"
+          },
+          "cssFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicPremiumSaaSDesign.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/premium-sass-design"
+        },
+        {
+          "id": "pDPGks3vTyHu",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "seNiaoyHbqUbSRTV4dz1rm",
+          "renderModuleFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "oVPzHMtsKF-V",
+          "name": "ProjectCard",
+          "type": "managed",
+          "projectId": "seNiaoyHbqUbSRTV4dz1rm",
+          "renderModuleFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicProjectCard.jsx",
+          "importSpec": {
+            "modulePath": "ProjectCard.jsx"
+          },
+          "cssFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicProjectCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "4kcPOvZyEqwE",
+          "name": "NavigationBar",
+          "type": "managed",
+          "projectId": "seNiaoyHbqUbSRTV4dz1rm",
+          "renderModuleFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicNavigationBar.jsx",
+          "importSpec": {
+            "modulePath": "NavigationBar.jsx"
+          },
+          "cssFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicNavigationBar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "orvYAM0G-kSD",
+          "name": "ContactSection",
+          "type": "managed",
+          "projectId": "seNiaoyHbqUbSRTV4dz1rm",
+          "renderModuleFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicContactSection.jsx",
+          "importSpec": {
+            "modulePath": "ContactSection.jsx"
+          },
+          "cssFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicContactSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ONiCHAjrD32D",
+          "name": "ProjectHeader",
+          "type": "managed",
+          "projectId": "seNiaoyHbqUbSRTV4dz1rm",
+          "renderModuleFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicProjectHeader.jsx",
+          "importSpec": {
+            "modulePath": "ProjectHeader.jsx"
+          },
+          "cssFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicProjectHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ZaucLc9q610G",
+          "name": "ProjectRelaunch",
+          "type": "managed",
+          "projectId": "seNiaoyHbqUbSRTV4dz1rm",
+          "renderModuleFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicProjectRelaunch.jsx",
+          "importSpec": {
+            "modulePath": "ProjectRelaunch.jsx"
+          },
+          "cssFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicProjectRelaunch.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/project-relaunch"
+        },
+        {
+          "id": "l2jqUDLeNPVB",
+          "name": "WebVisualDesign",
+          "type": "managed",
+          "projectId": "seNiaoyHbqUbSRTV4dz1rm",
+          "renderModuleFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicWebVisualDesign.jsx",
+          "importSpec": {
+            "modulePath": "WebVisualDesign.jsx"
+          },
+          "cssFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicWebVisualDesign.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/web-visual-design"
+        },
+        {
+          "id": "Ptz9lRGOlLXp",
+          "name": "WebsiteRedesign",
+          "type": "managed",
+          "projectId": "seNiaoyHbqUbSRTV4dz1rm",
+          "renderModuleFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicWebsiteRedesign.jsx",
+          "importSpec": {
+            "modulePath": "WebsiteRedesign.jsx"
+          },
+          "cssFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicWebsiteRedesign.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/website-redesign"
+        }
+      ],
+      "icons": [
+        {
+          "id": "-btXMNRWG3jK",
+          "name": "CheckSvgIcon",
+          "moduleFilePath": "plasmic/beginners_guide_website_in_3_minutes/icons/PlasmicIcon__CheckSvg.jsx"
+        },
+        {
+          "id": "iG_PzAf12RTl",
+          "name": "RightArrowIcon",
+          "moduleFilePath": "plasmic/beginners_guide_website_in_3_minutes/icons/PlasmicIcon__RightArrow.jsx"
+        },
+        {
+          "id": "BTbqjsn9OmEG",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/beginners_guide_website_in_3_minutes/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "maSVy1D71H6N",
+          "name": "Check2Icon",
+          "moduleFilePath": "plasmic/beginners_guide_website_in_3_minutes/icons/PlasmicIcon__Check2.jsx"
+        },
+        {
+          "id": "faDyilHKd93j",
+          "name": "CloudIcon",
+          "moduleFilePath": "plasmic/beginners_guide_website_in_3_minutes/icons/PlasmicIcon__Cloud.jsx"
+        },
+        {
+          "id": "1C_DEewx7WrB",
+          "name": "ProgrammingIcon",
+          "moduleFilePath": "plasmic/beginners_guide_website_in_3_minutes/icons/PlasmicIcon__Programming.jsx"
+        },
+        {
+          "id": "c7rzXD5VgzWs",
+          "name": "BrushIcon",
+          "moduleFilePath": "plasmic/beginners_guide_website_in_3_minutes/icons/PlasmicIcon__Brush.jsx"
+        },
+        {
+          "id": "DWjeGrfvxONg",
+          "name": "StarIcon",
+          "moduleFilePath": "plasmic/beginners_guide_website_in_3_minutes/icons/PlasmicIcon__Star.jsx"
+        },
+        {
+          "id": "6w8-w4M8IHE7",
+          "name": "FacebookIcon",
+          "moduleFilePath": "plasmic/beginners_guide_website_in_3_minutes/icons/PlasmicIcon__Facebook.jsx"
+        },
+        {
+          "id": "9scKFK5OwdYn",
+          "name": "Icon6Icon",
+          "moduleFilePath": "plasmic/beginners_guide_website_in_3_minutes/icons/PlasmicIcon__Icon6.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "XvOmAtRHCx5k",
+          "name": "image",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image.svg"
+        },
+        {
+          "id": "8m1vlqt-C2KI",
+          "name": "image 2",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image2.jpg"
+        },
+        {
+          "id": "ral1eH40bqu-",
+          "name": "image 3",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image3.jpg"
+        },
+        {
+          "id": "LD_aRM6BcBNA",
+          "name": "image 4",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image4.jpg"
+        },
+        {
+          "id": "3Eckg-fN_e6p",
+          "name": "image 5",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image5.png"
+        },
+        {
+          "id": "HFnwXHAEMY74",
+          "name": "image 6",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image6.png"
+        },
+        {
+          "id": "Rce-Zh1WPW-D",
+          "name": "image 7",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image7.png"
+        },
+        {
+          "id": "b-MNtRxmeMwB",
+          "name": "image 8",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image8.png"
+        },
+        {
+          "id": "NLGgEtBdDp5x",
+          "name": "image 9",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image9.png"
+        },
+        {
+          "id": "sS2UBB4onHCn",
+          "name": "image 10",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image10.png"
+        },
+        {
+          "id": "6mIarxot5Al6",
+          "name": "7eQUPQBxd2oEDFd7ofnXKtB57nM.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/_7EQupqBxd2OEdFd7OfnXKtB57NMJpg.png"
+        },
+        {
+          "id": "Abx_dFGfyRYA",
+          "name": "SXdSOx7SX77HoIWu49iwKLa3Ec.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/sXdSOx7Sx77HoIWu49IwKLa3EcJpg.png"
+        },
+        {
+          "id": "DSH74mfjZudj",
+          "name": "image 11",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image11.png"
+        },
+        {
+          "id": "0Ptz0aUl1UBw",
+          "name": "image 12",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image12.png"
+        },
+        {
+          "id": "PQLNppuhpW1V",
+          "name": "image 13",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image13.png"
+        },
+        {
+          "id": "8nMFSgVbvscl",
+          "name": "image 14",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image14.png"
+        },
+        {
+          "id": "-IqV8mRaCgSe",
+          "name": "image 15",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/image15.png"
+        },
+        {
+          "id": "jW_-ygBi_qNX",
+          "name": "MvnCHAKh43glmuIpkUEtABjctTw.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/mvnChaKh43GlmuIpkUEtABjctTwJpg.png"
+        },
+        {
+          "id": "4bx01UcpdBg3",
+          "name": "6FzxfIjNo8MPPe2EW9QPBhzu12U.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/_6FzxfIjNo8MpPe2Ew9QpBhzu12UJpg.png"
+        },
+        {
+          "id": "cEhWhhpqZxjg",
+          "name": "fWjRYWnGoN3P4ZAGnyUUd5CZ8w.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/fWjRyWnGoN3P4ZaGnyUUd5Cz8WJpg.png"
+        },
+        {
+          "id": "tSYy_zIHYJG_",
+          "name": "student-ga47364071_1280.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/studentGa473640711280Jpg.jpg"
+        },
+        {
+          "id": "b4jtYFzr-V29",
+          "name": "luke-peters-B6JINerWMz0-unsplash.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/lukePetersB6JiNerWMz0UnsplashJpg.jpg"
+        },
+        {
+          "id": "0Earc9iGpTed",
+          "name": "ben-kolde-bs2Ba7t69mM-unsplash.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/benKoldeBs2Ba7T69MMUnsplashJpg.jpg"
+        },
+        {
+          "id": "WTIIvC_t3IMZ",
+          "name": "daniel-korpai-aUmq85-2V7I-unsplash.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/danielKorpaiAUmq852V7IUnsplashJpg.jpg"
+        },
+        {
+          "id": "oOvB_wQXES-R",
+          "name": "alex-suprun-ZHvM3XIOHoE-unsplash.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/alexSuprunZHvM3XioHoEUnsplashJpg.jpg"
+        },
+        {
+          "id": "Wdi1DJWk1I2x",
+          "name": "christopher-campbell-rDEOVtE7vOs-unsplash.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/christopherCampbellRDeoVtE7VOsUnsplashJpg.jpg"
+        },
+        {
+          "id": "fZKab97z68ir",
+          "name": "courtney-cook-TSZo17r3m0s-unsplash.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/courtneyCookTsZo17R3M0SUnsplashJpg.jpg"
+        },
+        {
+          "id": "f5UnT3FGL0_F",
+          "name": "alexander-hipp-iEEBWgY_6lA-unsplash.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/alexanderHippIEebWgY6LAUnsplashJpg.jpg"
+        },
+        {
+          "id": "lcjY3l9qoBpW",
+          "name": "instagram.png",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/instagramPng.png"
+        },
+        {
+          "id": "V7N1u2lF8SIJ",
+          "name": "twitter.png",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/twitterPng.png"
+        },
+        {
+          "id": "_7hmk0hCbcNW",
+          "name": "linkedin.png",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/linkedinPng.png"
+        },
+        {
+          "id": "BaoHsEiS58S-",
+          "name": "Group 1.png",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/group1Png.png"
+        },
+        {
+          "id": "PwwCdaDtN2Ow",
+          "name": "Group 1 (1).png",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/group11Png.png"
+        },
+        {
+          "id": "jOPD3oLzUIkc",
+          "name": "brush.png",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/brushPng.png"
+        },
+        {
+          "id": "oYEhLcOLWlQq",
+          "name": "ux-design.png",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/uxDesignPng.png"
+        },
+        {
+          "id": "2e_zf9Lywz7K",
+          "name": "programming.png",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/programmingPng.png"
+        },
+        {
+          "id": "G8UIdc9FRxbA",
+          "name": "wallpaper.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/wallpaperJpg.jpg"
+        },
+        {
+          "id": "ZcffLL6J4bnU",
+          "name": "blue-and-orange-abstract-background-free-vector.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/blueAndOrangeAbstractBackgroundFreeVectorJpg.jpg"
+        },
+        {
+          "id": "0pgXdoc5Fpmd",
+          "name": "abstract-background-with-soft-gradient-color-and-dynamic-shadow-on-background-background-for-wallpaper-eps-10-free-vector.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/abstractBackgroundWithSoftGradientColorAndDynamicShadowOnBackgroundBackgroundForWallpaperEps10FreeVectorJpg.jpg"
+        },
+        {
+          "id": "koJbGO9-Bh82",
+          "name": "student-gae1842298_1280.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/studentGae18422981280Jpg.jpg"
+        },
+        {
+          "id": "6M8bAQdSsI3f",
+          "name": "laptop-g9b1ff6369_1280.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/laptopG9B1Ff63691280Jpg.jpg"
+        },
+        {
+          "id": "NEhvR5W7Jufo",
+          "name": "entrepreneur-g23179fc2c_1280.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/entrepreneurG23179Fc2C1280Jpg.jpg"
+        },
+        {
+          "id": "_pIlCXLhjRJ4",
+          "name": "laptop-g9a7a99e25_1920.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/laptopG9A7A99E251920Jpg.jpg"
+        },
+        {
+          "id": "oHuFZ6nJvHaT",
+          "name": "abstract-background-.jpg",
+          "filePath": "plasmic/beginners_guide_website_in_3_minutes/images/abstractBackgroundJpg.jpg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "8mkXn1MFzRrp",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "spMdR9mTpU0G",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "l9TsMn1d_f1V",
+        "name": "Screen",
+        "projectId": "seNiaoyHbqUbSRTV4dz1rm",
+        "contextFilePath": "plasmic/beginners_guide_website_in_3_minutes/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.334",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.334/dist/plasmic.schema.json"
+}
